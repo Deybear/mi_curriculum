@@ -1,0 +1,219 @@
+
+/* - - - - - || GENERAL || - - - - - */
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* - - - - - || COLUMN #001 // NAVEGATION || - - - - - */
+.column_001
+{
+    height: 100vh;
+    background: #b9d6f2;
+}
+
+.cat
+{
+    width: 90%;
+    border-radius: 35px;
+    margin: 5%;
+}
+
+.MCD_style
+{
+color: #003559;
+font-size: medium;
+font-weight: bolder;
+}
+
+/* - - - - - || COLUMN #002 // PROFILE || - - - - - */
+.column_002
+{
+    /* - - - || IMAGE || - - - */
+
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+
+    /* - - - || CONTENT || - - - */
+
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+/* - - - || INFORMATION || - - - */
+.personal_info
+{
+    color: #061A40;
+    text-align: center;
+    margin: auto;
+}
+
+.personal_info h3
+{
+    font-size: 25px;
+}
+
+.personal_info h3 span
+{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.personal_info p
+{
+    font-size: 14px;
+}
+
+/* - - - || SOCIAL NETWORKS || - - - */
+.social_networks
+{
+    color: #003559;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social_icons
+{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social_icons:hover
+{
+    transition: .5s;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+/* - - - - - || COLUMN #003 // INFORMATION || - - - - - */
+.column_003
+{
+    height: 100vh;
+    color: #003559;
+    padding: 40px 30px;
+    background: #B9D6F2;
+}
+
+/* - - - || ABOUT ME || - - - */
+.title_resume
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.subtitle_resume
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about_resume
+{
+    opacity: 10;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #061A40;
+}
+
+
+/* - - - || CONTACT || - - - */
+.contact_container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #061A40;
+}
+
+.contact_icons
+{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.contact_item h5
+{
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.contact_item p
+{
+    opacity: 5;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    color: #003559;
+}
+
+hr
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* - - - || SKILLS || - - - */
+.title_skills
+{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.skills_icons
+{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.title_skill
+{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.about_skill
+{
+    opacity: 5;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #003559;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+
+}

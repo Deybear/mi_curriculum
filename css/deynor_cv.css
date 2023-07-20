@@ -6,6 +6,47 @@
     padding: 0;
 }
 
+/* - - - || NAVEGATION BUTTONS || - - - */
+.nav_bar
+{
+    height: 100%;
+    display: flex;
+    position: fixed;
+    width: 105.271px;
+    align-items: center;
+    background: #35363A;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegation_btn
+{
+    border: none;
+    height: 80px;
+    color: #ffffff;
+    width: 105.271px;
+    background: #35363A;
+}
+
+.navegation_btn:hover
+{
+    transition: .5s;
+    color: #35363A;
+    background: #ffffff;
+}
+
+.navegation_btn i
+{
+    font-size: 28px;
+}
+
 /* - - - - - || SECTIONS || - - - - - */
 #education_section
 {
@@ -25,7 +66,7 @@
 {
     display: none;
     color: #ffffff;
-    background: blue;
+    background: #35363A;
 }
 
 /* - - - - - || COLUMN #001 // NAVEGATION || - - - - - */
@@ -237,7 +278,35 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px)
 {
+    .nav_bar
+    {
+        display: none;
+    }
 
+    .column_001
+    {
+        display: none;
+    }
+
+    .column_003
+    {
+        height: auto;
+    }
+
+    #education_section
+    {
+        display: block;
+    }
+
+    #experience_section
+    {
+        display: block;
+    }
+
+    #references_section
+    {
+        display: block;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -262,46 +331,4 @@
 @media only screen and (min-width: 1200px)
 {
 
-}
-
-
-/* - - - || NAVEGATION BUTTONS || - - - */
-.nav_bar
-{
-    height: 100%;
-    display: flex;
-    position: fixed;
-    width: 105.271px;
-    align-items: center;
-    background: #35363A;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.nav_container
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.navegation_btn
-{
-    border: none;
-    height: 80px;
-    color: #ffffff;
-    width: 105.271px;
-    background: #35363A;
-}
-
-.navegation_btn:hover
-{
-    transition: .5s;
-    color: #35363A;
-    background: #ffffff;
-}
-
-.navegation_btn i
-{
-    font-size: 28px;
 }
