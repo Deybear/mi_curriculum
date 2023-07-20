@@ -1,0 +1,111 @@
+body
+{
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo_container
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    filter: grayscale(1);
+    background: #ffffff;
+    border: solid 5px #fdf6f6;
+}
+
+.user_info
+{
+    height: 100vh;
+    background: #fcbf49;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.user_description
+{
+    color: #284b63;
+    padding: 30px 40px;
+    background: #fdfcdc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label
+{
+    font-weight: bolder;
+}
+
+h5
+{
+    display: flex;
+    color:  #3a0ca3;
+    align-items: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5 i
+{
+    margin-right: 10px;
+}
+
+span
+{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+p
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr
+{
+    opacity: 1;
+    width: 20%;
+    color:  #d62828;
+    border-top: 3px solid;
+}
+
+ul
+{
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 15px;
+    color: #ffffff;
+    list-style-type: none;
+}
+
+/* - - - - - || FIXED BUTTON || - - - - - */
+.home_btn
+{
+    border: none;
+    font-size: 15px;
+    color: #d62828;
+    padding: 20px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    background:   rgb(179, 171, 130);
+
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, .1);
+}
+
+.home_btn h5
+{
+    margin: 0;
+}
+
+#back_btn 
+{
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+}
